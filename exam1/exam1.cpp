@@ -16,27 +16,22 @@ int main()
 
     if (saleammout <= 10000)
     {
-        cout << "Your comission rate is 5% " << endl;
         commissionrate = .05;
     }
     else if (saleammout < 15000)
     {
-        cout << "Your commission rate is 10%" << endl;
         commissionrate = .10;
     }
     else if (saleammout < 18000)
     {
-        cout << "Your commission rate is 12%" << endl;
         commissionrate = .12;
     }
     else if (saleammout < 22000)
     {
-        cout << "Your commission rate is 14%" << endl;
         commissionrate = .14;
     }
     else
     {
-        cout << "Your commission rate is 16%" << endl;
         commissionrate = .16;
     }
 
@@ -50,6 +45,7 @@ int main()
         cout << "-----------" << endl;
         cout << "Total Sales: $" << setprecision(2) << fixed << saleammout << endl;
         cout << "Commission Rate: " << (commissionrate*100) << "%" << endl;
+        cout << "Total Commission: $" << setprecision(2) << fixed << totalcomision << endl;
         cout << "Advanced Pay: $" << setprecision(2) << fixed << advancepay << endl;
         cout << "Remaining Pay: $" << setprecision(2) << fixed << remainingpay << endl;
     }
@@ -59,6 +55,7 @@ int main()
         cout << "-----------" << endl;
         cout << "Total Sales: $" << setprecision(2) << fixed << saleammout << endl;
         cout << "Commission Rate: " << (commissionrate * 100) << "%" << endl;
+        cout << "Total Commission: $" << setprecision(2) << fixed << totalcomision << endl;
         cout << "Advanced Pay: $" << setprecision(2) << fixed << advancepay << endl;
         cout << "Outstanding Debt: $" << setprecision(2) << fixed << remainingpay << endl;
     }
@@ -68,6 +65,7 @@ int main()
         cout << "-----------" << endl;
         cout << "Total Sales: $" << setprecision(2) << fixed << saleammout << endl;
         cout << "Commission Rate: " << (commissionrate * 100) << "%" << endl;
+        cout << "Total Commission: $" << setprecision(2) << fixed << totalcomision << endl;
         cout << "Advanced Pay: $" << setprecision(2) << fixed << advancepay << endl;
         cout << "Remaining Pay: $" << setprecision(2) << fixed << remainingpay << endl;
 
